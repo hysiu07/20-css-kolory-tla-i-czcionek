@@ -1,0 +1,40 @@
+body{
+    background-color: aqua;
+}
+section{
+    background-color: white;
+}
+h1{
+    background-color: tomato;
+}
+h1 + p{
+    background-color: royalblue;
+}
+
+h2{
+    background-color: yellow;
+}
+
+h2 + p {
+    background-color: lime;
+}
+
+ol{
+    background-color: blueviolet;
+}
+
+li:nth-child(1){
+    color: violet;
+}
+li:nth-child(2){
+    color: green;
+}
+li:nth-child(3){
+    color: blue;
+}
+li:nth-child(4){
+    color: brown;
+}
+li:nth-child(5){
+    color: gold;
+}
